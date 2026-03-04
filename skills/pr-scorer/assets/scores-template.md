@@ -2,7 +2,6 @@
 
 - **Branch:** `{{branch_name}}`
 - **Base:** `{{base_branch}}`
-- **Commit:** `{{commit_hash}}` — {{commit_message}}
 - **Scored on:** {{date}}
 
 ---
