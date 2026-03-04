@@ -1,3 +1,4 @@
+```markdown
 # PR Template & Definition of Done
 
 ## What does this PR do?
@@ -29,3 +30,4 @@ If you have not followed and completed any of the above, please explain why belo
 - [ ] I have lint and format code is enabled when the file is saved and I have fixed all errors highlighted by lint.
 - [ ] I have deleted all non-descriptive comments and dead code from the files I've touched.
 - [ ] I have rebased my branch with the base branch I want to merge into and all the commits in this PR are my own.
+```
