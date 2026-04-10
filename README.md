@@ -40,6 +40,24 @@ Scoring categories:
 - **Non-Functional Requirements** (conditional) — performance, security, scalability, accessibility
 - **Test Coverage** (always scored) — test presence, edge cases, assertion quality
 
+### kt-doc
+
+Generate comprehensive Knowledge Transfer documentation for any frontend module. Dispatches three parallel exploration agents to analyze UI flows, data/API layers, and cross-cutting concerns, then synthesizes findings into a 12-section KT document.
+
+Use when:
+
+- "Document this module"
+- "Create KT"
+- "Knowledge transfer"
+- "Onboarding doc"
+- "What does this module do"
+
+Features:
+
+- Auto-detects framework (Next.js, Nuxt, Angular, Svelte, React, Vue, etc.)
+- Produces non-technical documentation readable by product owners, new developers, and coding agents
+- Covers user flows, business rules, API dependencies, cross-module interactions, analytics, and tech debt
+
 ## Installation
 
 Refer to the [skills.sh docs](https://skills.sh/docs) for setup instructions.
@@ -58,6 +76,10 @@ Write a PR description for my changes
 
 ```
 Score my PR
+```
+
+```
+/kt-doc src/features/checkout
 ```
 
 ## Skill Structure
